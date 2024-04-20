@@ -69,7 +69,7 @@ export default function EditTodo() {
                                 </Dropdown.Menu>
                             </Dropdown>
 
-                            <Button variant="info" type="submit" className="ms-2 px-3">
+                            <Button variant="info" type="submit" className="btn-blue ms-2 px-3">
                             <i className="bi bi-upload"></i>  Save
                             </Button>
                         </Form>

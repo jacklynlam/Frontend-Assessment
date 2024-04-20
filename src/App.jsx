@@ -13,6 +13,7 @@ import RequireAuth from './components/RequireAuth';
 import { TodoContext } from './contexts/TodoContext';
 import { useNavigate } from 'react-router-dom';
 import { useContext, useState } from 'react';
+import './App.css';
 
 function Layout() {
   const { setToken } = useContext(AuthContext);

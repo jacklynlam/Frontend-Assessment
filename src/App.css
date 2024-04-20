@@ -1,0 +1,44 @@
+.welcome-effect {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    /* // just set a high z index */
+    z-index: 200;
+    transition: opacity 0.4s;
+    opacity: 1;
+  }
+  
+  .welcome-effect p {
+    animation: fadeIn 2.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .btn-custom-primary {
+    background-color: #ff7e5f; /* Fallback for older browsers */
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    border: none;
+  }
+  
+  .btn-custom-secondary {
+    background-color: #6a82fb; /* Fallback for older browsers */
+    background-image: linear-gradient(to right, #6a82fb, #fc5c7d);
+    border: none;
+  }
+  

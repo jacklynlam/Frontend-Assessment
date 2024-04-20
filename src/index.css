@@ -17,6 +17,8 @@ body {
     font-weight: 200;
 }
 
+
+
 .custom-navbar {
     background: url('./assets/test1.jpg');
 }
@@ -30,13 +32,14 @@ body {
     font-weight: 400;
 }
 
+
 .body-bg {
     background: url('./assets/test1.jpg') no-repeat center;
     background-size: cover;
     background-color: transparent;
     box-shadow: none;
     border: none;
-    height: 1800px;
+    height: 1500px;
 
 }
 
@@ -47,6 +50,9 @@ body {
     box-shadow: none;
     border: none;
     height: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .edit-body{
@@ -122,4 +128,29 @@ body {
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
     background-color: #f2f4f7;
+}
+
+
+.btn-blue {
+    background-color: #2196F3; /* A nicer blue */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners for aesthetic */
+}
+
+.btn-blue:hover {
+    background-color: #0b7dda; /* A shade darker on hover */
+}
+
+.login-form:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }

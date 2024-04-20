@@ -13,6 +13,7 @@
     "@reduxjs/toolkit": "^2.2.1",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "framer-motion": "^11.0.7",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-datepicker": "^6.1.0",
@@ -20,6 +21,7 @@
     "react-leaflet": "^4.2.1",
     "react-redux": "^9.1.0",
     "react-router-dom": "^6.22.1",
+    "react-toastify": "^10.0.4",
     "use-local-storage": "^3.0.0"
   },
   "devDependencies": {
