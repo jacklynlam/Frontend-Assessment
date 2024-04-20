@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.brand-logo {
+    font-family: "Pacifico", cursive;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.title {
+    font-family: "Nunito Sans", cursive;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.custom-navbar {
+    background: url('./assets/test1.jpg');
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.text-progress {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+}
+
+.body-bg {
+    background: url('./assets/test1.jpg') no-repeat center;
+    background-size: cover;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    height: 1800px;
+
+}
+
+.login-body{
+    background: url('./assets/test1.jpg') no-repeat center;
+    background-size: cover;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    height: 1000px;
+}
+
+.edit-body{
+    background: url('./assets/test1.jpg') no-repeat center;
+    background-size: cover;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    height: 1000px;
+}
+
+.navbar.nav-link {
+    color: #fff;
+    background-color: transparent;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.countdown-style {
+    color: #495057;
+    font-weight: bold;
+}
+
+.date-picker-custom {
+    border-radius: 0.25rem;
+    padding: .25rem
+}
+
+.countdown-badge {
+    background-color: #5c946e;
+    /* Example color - dark green for an 'outdoors' feel */
+    color: #fff;
+    /* White text to stand out against the dark background */
+    font-weight: 800;
+    padding: 0.5em 0.75em;
+    border-radius: 10px;
+    /* Rounded corners for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Slight shadow for depth */
+    text-transform: uppercase;
+    /* Uppercase text for emphasis */
+    font-size: 0.8rem;
+    /* Smaller font size for a neat appearance */
+}
+
+.action-button i {
+    transition: transform 0.3s ease;
+}
+
+.action-button hover i {
+    transform: scale(1.1);
+}
+
+.bg-pastel-red {
+    background-color: #ffccd5;
+    color: #343a40;
+}
+
+.bg-pastel-orange {
+    background-color: #ffe4b4;
+    color: #343140;
+}
+
+.bg-pastel-green {
+    background-color: #c8e6c9;
+    color: #343140;
+}
+
+.form-border {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #f2f4f7;
+}
